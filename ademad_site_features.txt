@@ -1,0 +1,50 @@
+PAGES PROPOSEES :
+
+- acceuil (suggestion hot / nouvelles suggestions)
+- calendrier des events
+- presentation de l'asso + du bureau
+- publications facebook + insta
+- boutique
+- contactez nous
+- mentions legales
+- propostitions d'events (boite à idées)
+- page specifiques par events + photos et gagnants tournois
+- page presentation des partenaires
+- calendrier des ouvertures du local
+
+- ADMIN gestion des comptes
+- ADMIN gestion des events
+- ADMIN gestion des publis
+- ADMIN acceuil
+- ADMIN gestion des suggestions
+- ADMIN gestion des partenariats
+- ADMIN gestion des publications
+- ADMIN gestion des produits de la boutique
+- ADMIN gestion des ouvertures du local
+
+PAGES INDISPENSABLE (tu le fais un point c'est tout) :
+- accueil
+- ADMIN accueil
+- contactez nous
+- mentions légales
+- gestions des comptes et de leurs postes
+- ADMIN gestion des comptes
+
+
+PAGES OPTIONNEL (si finalement tu n'as plus le temps tu le fais pas) :
+- calendrier des events
+- ADMIN gestion des events
+- propositios d'events (boite à idée) + vote
+- ADMIN gestion des suggestions
+- presentation de l'asso + du bureau
+- publication facebook + insta
+- ADMIN gestion des publis
+
+PAGES FACULTATIVE (si t'as le temps tu le fais):
+- page specifique par event + photos et gagant tournois
+- page presentation partenaires
+- calendrier des ouvertures du local
+- ADMIN gestion des ouvertures du local
+- boutique
+- page presentation des partenaires
+- ADMIN gestion des partenariats
