@@ -3776,3 +3776,1077 @@ Mon May 09 2022 05:28:38 GMT+0200 (Central European Summer Time)
 rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
 
 
+----------
+
+Mon May 09 2022 13:05:41 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:05:41 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:05:59 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:05:59 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:06:04 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:06:13 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 13:06:13 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:11:32 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:11:32 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:12:18 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:12:18 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:16:07 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:16:07 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:18:22 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:18:22 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:33:43 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 14:33:43 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:42:18 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:43:00 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:43:00 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:44:42 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:44:42 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:48:12 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:48:12 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:48:27 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:48:27 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:58:20 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:58:20 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:58:31 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:58:31 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:59:22 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 15:59:22 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:02:13 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:02:13 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:02:36 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:02:36 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:03:31 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:03:31 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:04:11 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:04:11 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:04:37 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:04:37 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:05:13 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:05:13 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:07:32 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:07:32 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:07:46 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:07:46 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:11:18 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:11:18 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:13:15 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:13:15 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:16:02 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:16:02 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:18:24 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:18:24 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:24:27 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:24:27 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:29:51 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:29:51 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:31:58 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:31:58 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:33:20 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:33:20 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:33:59 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:33:59 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:34:52 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:34:52 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:35:37 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:35:37 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:37:04 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:37:04 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:42:19 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:42:19 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:48:12 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:48:12 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:50:34 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:50:34 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:52:14 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:52:14 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:52:51 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:52:51 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:55:54 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:55:54 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:25 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:25 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:27 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:27 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:43 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:56:43 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:05 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:05 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:15 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:15 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:28 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:28 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:40 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:57:40 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:58:35 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:58:35 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:59:45 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 16:59:45 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:00:44 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:00:44 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:04:42 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:04:42 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:05:43 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:05:43 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:08:45 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:08:45 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:09:22 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:09:22 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:11:19 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:11:19 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:11:53 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:11:53 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:13:43 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:13:43 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:17:56 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:17:56 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:18:47 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:18:47 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:19:32 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:19:32 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:19:59 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:19:59 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:20:07 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:20:07 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:21:38 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:21:38 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:21:49 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:21:49 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:23:10 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:23:10 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:23:23 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:23:23 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:25:57 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:25:57 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:27:07 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:27:07 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:27:56 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:27:56 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:30:03 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:30:03 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:30:16 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:30:37 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:30:37 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:31:08 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:31:08 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:31:44 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:31:44 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:32:22 GMT+0200 (Central European Summer Time)
+
+/home/archkery/Documents/pro/stage/sitedemad/bootstrap/bootstrap_to_laravel.sh: line 28: cd: ./export: No such file or directory
+
+
+----------
+
+Mon May 09 2022 17:32:22 GMT+0200 (Central European Summer Time)
+
+rm: cannot remove '../../laravelapp/resources/views//../welcome.blade.dontremove': No such file or directory
+
+

@@ -13,9 +13,65 @@ function init() {
     global_day_selected = 12;
     global_month_selected = 02;
     global_year_selected = 2022;    
+
+
+
+    Number.prototype.mod = function (n) {
+        return ((this % n) + n) % n;
+    };
     
     // handle arrows
-    document.querySelector(".arrow_left").addEventListener("click", function () {prevMonth();}, false); document.querySelector(".arrow_right").addEventListener("click", function () {nextMonth();}, false);
+    document.querySelector(".arrow_left").addEventListener("click", function () {
+        prevMonth();
+    }, false);
+    document.querySelector(".arrow_right").addEventListener("click", function () {
+        nextMonth();
+    }, false);
+
+    shiftNumbers();
+}
+
+function resetDays() {
+    let parentDate = document.querySelector(".days.list-unstyled");
+
+    while (day_shift_global != 0) {
+        parentDate.removeChild(parentDate.children[0]);
+
+        var li = document.createElement("li");
+        li.classList.add("outside");
+        var div = document.createElement("div");
+        div.classList.add("date");
+        div.textContent = 31;
+        li.appendChild(div);
+
+        parentDate.appendChild(li);
+
+        day_shift_global --;
+    }
+    day_shift_global = 0;
+}
+
+function shiftNumbers() {
+    const d = new Date(year = global_year_selected, month = global_month_selected - 1, date = 0);
+    day_shift_global = d.getDay();
+    let day = day_shift_global;
+
+    while (day != 0) {
+        var li = document.createElement("li");
+        li.classList.add("outside");
+        var div = document.createElement("div");
+        div.classList.add("date");
+        div.textContent = 31;
+        li.appendChild(div);
+
+        var temp = document.querySelector(".days.list-unstyled");
+
+        temp.prepend(li);
+
+        temp.removeChild(temp.children[temp.children.length - 1]);
+        
+        day --;
+    }
 }
 
 function getEvents(month, year) {
@@ -25,17 +81,16 @@ function getEvents(month, year) {
     updateEvent();
 }
 
-Number.prototype.mod = function (n) {
-  return ((this % n) + n) % n;
-};
-
 function nextMonth() {
     removeAllEvents();
     removeDatesEventsListeners();
     resetCalendarDates();
+    resetDays();
     
+    shiftNumbers();
+
     selectedis(1, 1 + (global_month_selected % 12), global_year_selected + (global_month_selected == 12? 1 : 0));
-    
+
     getEvents();
 }
 
@@ -43,20 +98,37 @@ function prevMonth() {
     removeAllEvents();
     removeDatesEventsListeners();
     resetCalendarDates();
+    resetDays();
     
     selectedis(1, 1 + (global_month_selected - 2).mod(12), global_year_selected + (global_month_selected == 1? -1 : 0));
-    
+
+    shiftNumbers();
+
     getEvents();
 }
+
 
 function selectedis(number, month, year) {
     document.querySelector(".days :nth-child("+number+")").children[0].classList.add("actual");
     document.querySelector(".month").textContent = month_to_string(month) + " " + year;
+
     select_nb_days(numberofdays(month, year));
+    select_nb_days_prev_month(month, year);
     
     global_day_selected = number;
     global_month_selected = month;
     global_year_selected = year;
+}
+
+function select_nb_days_prev_month(month, year) {
+    let x = day_shift_global;
+    console.log("of month : " + (1 + (month - 2).mod(12)) + " and year : " + (year + (month == 1? -1 : 0)));
+    let i = 1;
+    while (x != 0) {
+        --x;
+        grey_day_and_replace_stock(i, numberofdays(1 + (month - 2).mod(12), year + (month == 1? -1 : 0)) - x);
+        i ++;
+    }
 }
 
 function select_nb_days(nb) {
@@ -73,7 +145,6 @@ function select_nb_days(nb) {
             min += 1;
             break;
         case 31:
-            return;
     }
     
     grey_day_and_replace(32, min);
@@ -86,10 +157,45 @@ function select_nb_days(nb) {
     min += 1;
     
     grey_day_and_replace(35, min);
+    min += 1;
+    
+    grey_day_and_replace(36, min);
+    min += 1;
+    
+    grey_day_and_replace(37, min);
+    min += 1;
+    
+    grey_day_and_replace(38, min);
+    min += 1;
+    
+    grey_day_and_replace(39, min);
+    min += 1;
+    
+    grey_day_and_replace(40, min);
+    min += 1;
+    
+    grey_day_and_replace(41, min);
+    min += 1;
+    
+    grey_day_and_replace(42, min);
 }
 
 function grey_day_and_replace(which, to) {
+    let toReplace = document.querySelector(".days :nth-child("+(which + day_shift_global)+")");
+    if (toReplace == null) {
+        return;
+    }
+    if (!toReplace.classList.contains("outside")) {
+        toReplace.classList.add("outside");
+    }
+    toReplace.children[0].textContent = to;
+}
+
+function grey_day_and_replace_stock(which, to) {
     let toReplace = document.querySelector(".days :nth-child("+which+")");
+    if (toReplace == null) {
+        return;
+    }
     if (!toReplace.classList.contains("outside")) {
         toReplace.classList.add("outside");
     }
@@ -97,7 +203,10 @@ function grey_day_and_replace(which, to) {
 }
 
 function ungrey_day_and_replace(which, to) {
-    let toReplace = document.querySelector(".days :nth-child("+which+")");
+    let toReplace = document.querySelector(".days :nth-child("+(which + day_shift_global)+")");
+    if (toReplace == null) {
+        return;
+    }
     if (toReplace.classList.contains("outside")) {
         toReplace.classList.remove("outside");
     }
@@ -241,7 +350,8 @@ function createEvent(from, to, severity, title, content, url, prevList = null) {
             newElement.classList.add("eventno-" + event_id_global);
             frombis = Math.floor((from - 1) / 7) * 7 + 8;
             if (prevList == null) {
-                prevList = ["eventno-" + (event_id_global - 1)];
+                prevList = new Array();
+                prevList.push("eventno-" + (event_id_global - 1));
             } else {
                 prevListNull = false;
                 prevList.push("eventno-" + (event_id_global - 1));

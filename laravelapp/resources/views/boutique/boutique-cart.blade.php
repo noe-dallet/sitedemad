@@ -31,7 +31,7 @@
                                 <li><a id="navbar-calendrier" class="dropdown-item" href="#">Link</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" id="nav-boutique" href="boutique.html">Boutique</a></li>
+                        <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique.html">Boutique</a></li>
                     </ul><a class="btn btn-primary" role="button" href="../contact.html">Contactez-nous</a>
                 </div>
             </div>
