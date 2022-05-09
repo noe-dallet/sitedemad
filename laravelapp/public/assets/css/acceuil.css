@@ -1,0 +1,53 @@
+#navcol-2 {
+  font-size: 110%;
+}
+
+.carousel-inner {
+  max-height: 450px;
+}
+
+img {
+  padding: 0;
+}
+
+#presentation {
+  text-align: center;
+  padding: 10px 12px;
+}
+
+.btn {
+  text-align: center;
+  transform: translate(-9px);
+  width: 25%;
+}
+
+#next_event {
+  text-align: center;
+  padding: 10px 12px;
+}
+
+div {
+  /*text-align: center;*/
+}
+
+img {
+  width: 95%;
+}
+
+.btn {
+  width: 25%;
+}
+
+#suggestions {
+  text-align: center;
+  padding: 10px 12px;
+}
+
+.btn {
+  width: 25%;
+}
+
+img {
+  width: 95%;
+}
+

@@ -1,0 +1,229 @@
+.clearfix::after, .calendar ol::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.calendar {
+  border-radius: 10px;
+}
+
+.month {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .month {
+    font-size: 3.5rem;
+  }
+}
+
+.calendar ol li {
+  float: left;
+  width: 14.28571%;
+}
+
+.calendar .day-names {
+  border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+  border-bottom: 1px solid #eee;
+  min-height: 8rem;
+}
+
+.calendar .days li .date {
+  margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+  font-size: 1.0rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-4 {
+  width: 400%;
+}
+
+.calendar .days li .event.span-4 {
+  width: 400%;
+}
+
+.calendar .days li .event.span-5 {
+  width: 500%;
+}
+
+.calendar .days li .event.span-6 {
+  width: 600%;
+}
+
+.calendar .days li .event.span-7 {
+  width: 700%;
+}
+
+.calendar .days li .event.span-3 {
+  width: 300%;
+}
+
+.calendar .days li .event.span-2 {
+  width: 200%;
+}
+
+.calendar .days li .event.begin {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li:nth-child(n + 29) {
+  border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+  color: #ddd;
+}
+
+.container {
+  --bs-body-bg: #191919;
+  text-align: center;
+  padding: 2%;
+}
+
+.event.active {
+  border: 5px solid var(--bs-gray-dark);
+  padding: 1px !important;
+}
+
+.date:not(.actual):hover {
+  background-color: var(--bs-gray);
+  border-radius: 10px;
+  color: var(--bs-white);
+  cursor: pointer;
+}
+
+.date.actual {
+  background-color: var(--bs-blue);
+  border-radius: 10px;
+  color: var(--bs-white);
+}
+
+.fa.fa-calendar.fa-3x.mr-3 {
+  margin-right: 5%;
+}
+
+.material-icons.arrow_left {
+  margin-right: 10%;
+  color: var(--bs-gray);
+  cursor: pointer;
+}
+
+.material-icons.arrow_right {
+  margin-left: 10%;
+  color: var(--bs-gray);
+  cursor: pointer;
+}
+
+.material-icons.arrow_left:hover {
+  color: #eeeeee;
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+.material-icons.arrow_right:hover {
+  color: #eeeeee;
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+.event {
+  cursor: pointer;
+}
+
+.bg-info.hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-primary.active {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-secondary.active {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-secondary.hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-primary.hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-success.hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-success.active {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-info.active {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-warning.active {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-warning-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.bg-warning.hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-warning-active-rgb),var(--bs-bg-opacity))!important;
+}
+
+.all-day {
+  border-radius: 0px !important;
+}
+
+.all-day:not(.event) {
+  color: rgba(0,0,0,0) !important;
+  border-radius: 0px !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.calendar .days li .event-link:not(.event) {
+  font-size: 1.0rem;
+  padding: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+  color: rgba(0,0,0,0) !important;
+  border-radius: 0px !important;
+  background-color: rgba(0,0,0,0) !important;
+  cursor: pointer;
+}
+

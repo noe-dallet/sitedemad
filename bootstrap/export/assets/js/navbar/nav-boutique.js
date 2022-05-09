@@ -1,0 +1,1 @@
+document.getElementById('nav-boutique').classList.add('active');

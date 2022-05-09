@@ -1,0 +1,13 @@
+textarea {
+  resize: none;
+}
+
+textarea {
+  width: 95%;
+  min-height: 2rem;
+}
+
+.modal_heading {
+  padding-left: 5%;
+}
+
