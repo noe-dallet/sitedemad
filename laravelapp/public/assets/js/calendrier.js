@@ -13,14 +13,13 @@ function init() {
     global_day_selected = 12;
     global_month_selected = 02;
     global_year_selected = 2022;    
-
+    
+    // handle arrows
 
 
     Number.prototype.mod = function (n) {
         return ((this % n) + n) % n;
-    };
-    
-    // handle arrows
+      };
     document.querySelector(".arrow_left").addEventListener("click", function () {
         prevMonth();
     }, false);
@@ -34,7 +33,7 @@ function init() {
 function resetDays() {
     let parentDate = document.querySelector(".days.list-unstyled");
 
-    while (day_shift_global != 0) {
+    while (parentDate.children[0].classList.contains("outside")) {
         parentDate.removeChild(parentDate.children[0]);
 
         var li = document.createElement("li");
@@ -81,6 +80,7 @@ function getEvents(month, year) {
     updateEvent();
 }
 
+
 function nextMonth() {
     removeAllEvents();
     removeDatesEventsListeners();
@@ -100,9 +100,9 @@ function prevMonth() {
     resetCalendarDates();
     resetDays();
     
-    selectedis(1, 1 + (global_month_selected - 2).mod(12), global_year_selected + (global_month_selected == 1? -1 : 0));
-
     shiftNumbers();
+
+    selectedis(1, 1 + (global_month_selected - 2).mod(12), global_year_selected + (global_month_selected == 1? -1 : 0));
 
     getEvents();
 }
@@ -121,13 +121,13 @@ function selectedis(number, month, year) {
 }
 
 function select_nb_days_prev_month(month, year) {
-    let x = day_shift_global;
-    console.log("of month : " + (1 + (month - 2).mod(12)) + " and year : " + (year + (month == 1? -1 : 0)));
     let i = 1;
-    while (x != 0) {
-        --x;
-        grey_day_and_replace_stock(i, numberofdays(1 + (month - 2).mod(12), year + (month == 1? -1 : 0)) - x);
+    let n = numberofdays(1 + (month - 2).mod(12), year + (month == 1? -1 : 0)) - day_shift_global + 1;
+    let p = n + day_shift_global - 1;
+    while (n != p + 1) {
+        grey_day_and_replace_real(i, n);
         i ++;
+        n ++;
     }
 }
 
@@ -181,6 +181,7 @@ function select_nb_days(nb) {
 }
 
 function grey_day_and_replace(which, to) {
+
     let toReplace = document.querySelector(".days :nth-child("+(which + day_shift_global)+")");
     if (toReplace == null) {
         return;
@@ -191,8 +192,8 @@ function grey_day_and_replace(which, to) {
     toReplace.children[0].textContent = to;
 }
 
-function grey_day_and_replace_stock(which, to) {
-    let toReplace = document.querySelector(".days :nth-child("+which+")");
+function grey_day_and_replace_real(which, to) {
+    let toReplace = document.querySelector(".days :nth-child(" + which + ")");
     if (toReplace == null) {
         return;
     }

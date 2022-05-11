@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/css/evenements.css">
+    <link rel="stylesheet" href="assets/css/Signup-page-with-overlay.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/template/footer.css">
     <link rel="stylesheet" href="assets/css/template/navbar.css">
 </head>
 
 <body>
-    <div id="navbar" class="post-navbar">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top py-3" style="background: #dadada;">
+    <div id="navbar" class="post-navbar minified">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top py-3 minified">
             <div class="container"><a class="logo" href="../accueil.html"><img src="assets/img/244355562_581213866363420_5612047840486019529_n.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav me-auto">
@@ -32,7 +33,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique.html">Boutique</a></li>
-                    </ul><a class="btn btn-primary" role="button" href="../contact.html">Contactez-nous</a>
+                    </ul><a class="btn btn-primary" role="button" href="../contact.html" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a><a class="btn btn-outline-primary" role="button" href="../login.html" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>
                 </div>
             </div>
         </nav>

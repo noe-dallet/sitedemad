@@ -98,10 +98,12 @@
   }
 }
 
-.navbar .btn {
-  min-width: 7em;
-  width: 17%;
-  margin: initial;
+@media (min-width: 1200px) {
+  .navbar .btn {
+    min-width: 7em;
+    width: 15%;
+    margin: initial;
+  }
 }
 
 .navbar img {
@@ -120,19 +122,19 @@
 
 @media (min-width: 768px) {
   .navbar + * {
-    margin-top: 94px;
+    margin-top: 79px;
   }
 }
 
 @media (min-width: 1200px) {
   .navbar + * {
-    margin-top: 84px;
+    margin-top: 79px;
   }
 }
 
 @media (min-width: 1400px) {
   .navbar + * {
-    margin-top: 92px;
+    margin-top: 79px;
   }
 }
 
@@ -145,5 +147,18 @@
 h1 {
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+
+.navbar {
+  background: rgba(218,218,218,0.63);
+  backdrop-filter: blur(.4vw);
+  transition: 0.5s;
+}
+
+.navbar.minified img {
+  width: 70%;
+}
+
+.navbar.minified {
 }
 
