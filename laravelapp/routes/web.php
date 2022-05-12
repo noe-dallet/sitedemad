@@ -13,8 +13,56 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
+});
+Route::get('/', function () {
+    return view('accueil');
+});
+Route::get('/accueil', function () {
+    return view('accueil');
+});
+Route::get('/calendrier', function () {
+    return view('calendrier');
+});
+Route::get('/presentation_bde', function () {
+    return view('presentation_bde');
+});
+Route::get('/propositions', function () {
+    return view('propositions');
+});
+Route::get('/boutique', function () {
+    return view('boutique');
+});
+Route::get('/mention_legales', function () {
+    return view('mention_legales');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/evenements', function () {
+    return view('evenements');
+});
+
+Route::get('/boutique', function () {
+    return view('boutique/boutique');
+});
+
+Route::get('/boutique-article', function () {
+    return view('boutique/boutique-article');
+});
+
+Route::get('/boutique-cart', function () {
+    return view('boutique/boutique-cart');
+});
+
+Route::get('/boutique-merci', function () {
+    return view('boutique/boutique-merci');
+});
+
+Route::get('/boutique-pay', function () {
+    return view('boutique/boutique-pay');
 });
 
 Route::get('/dashboard', function () {

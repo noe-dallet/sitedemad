@@ -41,7 +41,7 @@ mv $export_folder_php/../layouts.dontremove $export_folder_php/layouts
 
 explore_and_export ""
 
-find $export_folder_php/ \( -type d -name .git -prune \) -o -type f -print0 | xargs --null -0 sed -i 's/\\.html//g'
+find $export_folder_php \( -type d -name .git -prune \) -o -type f -print0 | xargs --null sed -i "s/\\.html//g"
 
 rm -rf $export_folder_rest/*
 
