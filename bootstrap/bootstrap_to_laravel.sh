@@ -2,27 +2,20 @@
 
 cd $1
 
->&2 pwd
-
 export_folder_rest=../../laravelapp/public/assets/
 export_folder_php=../../laravelapp/resources/views/
 
 function explore_and_export {
 	local param=$1
-	echo "search in : $param*"
 	for filename in $param*; do
 		if [[ "$filename" != "assets" && "$filename" != "templates" ]]; then
-			echo $filename
 			if [ -f $filename ]; then
 				to_file="$export_folder_php$(echo "$filename" | cut -f 1 -d '.').blade.php"
-				echo "to_file=$to_file"
 				cp -f $filename $to_file
 			else
 				mkdir $export_folder_php$filename 2>/dev/null
 				explore_and_export "$filename/";
 			fi
-		else
-			echo "skip file or folder : $filename"
 		fi
 	done
 }
@@ -48,7 +41,7 @@ mv $export_folder_php/../layouts.dontremove $export_folder_php/layouts
 
 explore_and_export ""
 
->&2 find $export_folder_php/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/\\.html//g'
+find $export_folder_php/ \( -type d -name .git -prune \) -o -type f -print0 | xargs --null -0 sed -i 's/\\.html//g'
 
 rm -rf $export_folder_rest/*
 
