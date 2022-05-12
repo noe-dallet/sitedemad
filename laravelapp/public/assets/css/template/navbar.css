@@ -75,7 +75,7 @@
   }
 }
 
-.navbar {
+.navbar .user-picture {
   font-size: 120%;
   text-align: right;
   color: var(--bs-blue);
@@ -83,7 +83,7 @@
 }
 
 @media (min-width: 992px) {
-  .navbar {
+  .navbar .user-picture {
     font-size: 130%;
     text-align: right;
     color: var(--bs-blue);
@@ -160,5 +160,25 @@ h1 {
 }
 
 .navbar.minified {
+}
+
+.dropdown-toggle.user-picture::after {
+  display: initial;
+  margin-left: initial;
+  vertical-align: initial;
+  content: "";
+  border-top: initial;
+  border-right: initial;
+  border-bottom: initial;
+  border-left: initial;
+}
+
+.navbar a.user-picture {
+  margin-right: 2vw;
+}
+
+.navbar .non-selectable-item {
+  color: #ffffff;
+  background-color: #555555;
 }
 

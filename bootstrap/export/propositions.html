@@ -33,13 +33,16 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique.html">Boutique</a></li>
-                    </ul><a class="btn btn-primary" role="button" href="../contact.html" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a><a class="btn btn-outline-primary" role="button" href="../login.html" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>
+                    </ul>@auth
+                    <div class="dropdown show"><a class="dropdown-toggle user-picture" aria-expanded="true" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 2em;"></a>
+                        <div class="dropdown-menu show"><a class="dropdown-item non-selectable-item" href="assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="#">Déconnexion</a></div>
+                    </div>@endauth<a class="btn btn-primary" role="button" href="../contact.html" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a>@guest<a class="btn btn-outline-primary" role="button" href="connexion.html" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>@endguest
                 </div>
             </div>
         </nav>
         <div class="navbar-spacer"></div>
     </div>
-    <div class="container d-flex">
+    <div class="container d-flex start-page">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Title</h4>
@@ -96,7 +99,7 @@
                 <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
             </div>
         </div>
-    </div><button class="btn btn-primary" id="modal_activer_sugg" type="button" data-bs-toggle="modal" data-bs-target="#add_sugg_modal">Des suggestions ?</button>
+    </div><button class="btn btn-primary" id="modal_activer_sugg" type="button" data-bs-toggle="modal" data-bs-target="#add_sugg_modal" style="margin-bottom: 5vh;">Des suggestions ?</button>
     <div class="modal fade" role="dialog" tabindex="-1" id="add_sugg_modal">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">

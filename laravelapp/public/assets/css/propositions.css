@@ -24,9 +24,17 @@ img {
   }
 }
 
-.btn {
-  margin: 2%;
-  width: 17%;
+@media (min-width: 1200px) {
+  .btn {
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    margin: 2%;
+    width: 30%;
+  }
 }
 
 textarea {

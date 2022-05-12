@@ -34,7 +34,10 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique.html">Boutique</a></li>
-                    </ul><a class="btn btn-primary" role="button" href="../contact.html" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a><a class="btn btn-outline-primary" role="button" href="../login.html" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>
+                    </ul>@auth
+                    <div class="dropdown show"><a class="dropdown-toggle user-picture" aria-expanded="true" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 2em;"></a>
+                        <div class="dropdown-menu show"><a class="dropdown-item non-selectable-item" href="../assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="#">Déconnexion</a></div>
+                    </div>@endauth<a class="btn btn-primary" role="button" href="../contact.html" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a>@guest<a class="btn btn-outline-primary" role="button" href="connexion.html" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>@endguest
                 </div>
             </div>
         </nav>
