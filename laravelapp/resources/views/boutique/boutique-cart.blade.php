@@ -34,8 +34,12 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique">Boutique</a></li>
                     </ul>@auth
-                    <div class="dropdown show"><a class="dropdown-toggle user-picture" aria-expanded="true" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 2em;"></a>
-                        <div class="dropdown-menu show"><a class="dropdown-item non-selectable-item" href="../assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="#">Déconnexion</a></div>
+                    <div class="dropdown"><a class="dropdown-toggle user-picture" aria-expanded="false" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 2em;"></a>
+                        <div class="dropdown-menu"><a class="dropdown-item non-selectable-item" href="../assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Deconnexion</a>
+
+<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+    @csrf
+</form></div>
                     </div>@endauth<a class="btn btn-primary" role="button" href="../contact" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a>@guest<a class="btn btn-outline-primary" role="button" href="connexion" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>@endguest
                 </div>
             </div>
