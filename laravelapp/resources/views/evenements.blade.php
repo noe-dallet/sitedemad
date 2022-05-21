@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="assets/css/evenements.css">
-    <link rel="stylesheet" href="assets/css/Signup-page-with-overlay.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/template/footer.css">
-    <link rel="stylesheet" href="assets/css/template/navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/evenements.min.css">
 </head>
 
 <body>
@@ -20,27 +17,20 @@
         <nav class="navbar navbar-light navbar-expand-md fixed-top py-3 minified">
             <div class="container"><a class="logo" href="../accueil"><img src="assets/img/244355562_581213866363420_5612047840486019529_n.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav me-auto" style="flex-grow: 1;">
                         <li class="nav-item"><a class="nav-link" id="nav-presentation_bde" href="../presentation_bde">Le BDE</a></li>
                         <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" id="nav-actualites" href="#">Actualités&nbsp;</a>
                             <div class="dropdown-menu"><a class="dropdown-item" id="nav-calendrier" href="../calendrier">Calendrier</a><a class="dropdown-item" id="nav-evenements" href="../evenements">Evénements</a><a class="dropdown-item" id="nav-propositions" href="../propositions">Boîte à idées</a></div>
                         </li>
-                        <li class="nav-item dropdown">
-                            <ul class="dropdown-menu" aria-labelledby="nav-actualites">
-                                <li><a id="navbar-proposition" class="dropdown-item" href="#">Link</a></li>
-                                <li><a id="navbar-evenement" class="dropdown-item" href="#">Link</a></li>
-                                <li><a id="navbar-calendrier" class="dropdown-item" href="#">Link</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique">Boutique</a></li>
-                    </ul>@auth
-                    <div class="dropdown"><a class="dropdown-toggle user-picture" aria-expanded="false" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 2em;"></a>
-                        <div class="dropdown-menu"><a class="dropdown-item non-selectable-item" href="assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Deconnexion</a>
+                        <li class="nav-item"><a class="nav-link" id="nav-boutique" href="../boutique" style="flex-grow: 1;">Boutique</a>@guest </li> @endguest @auth</li>
+                        <li class="nav-item dropdown" style="margin-left: auto;"><a class="dropdown-toggle nav-link user-picture" aria-expanded="false" data-bs-toggle="dropdown" href="#"><img class="rounded-circle" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" style="width: 1.6em;"></a>
+                            <div class="dropdown-menu"><a class="dropdown-item non-selectable-item" href="assets/img/1327362094.jpeg">Connecté en temps que : {{ Auth::user()->name }}</a><a class="dropdown-item" href="#">Mon compte</a><a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Deconnexion</a>
 
 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
     @csrf
-</form></div>
-                    </div>@endauth<a class="btn btn-primary" role="button" href="../contact" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a>@guest<a class="btn btn-outline-primary" role="button" href="connexion" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>@endguest
+</form>@endauth</div>
+                        </li>
+                    </ul><a class="btn btn-primary" role="button" href="../contact" style="white-space: nowrap;margin-right: 1vh;">Contactez-nous</a>@guest<a class="btn btn-outline-primary" role="button" href="connexion" style="white-space: nowrap;margin-right: 1vh;">Connexion</a>@endguest
                 </div>
             </div>
         </nav>
@@ -62,9 +52,8 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/boutique/bootsrtap-Payment-Form.js"></script>
-    <script src="assets/js/navbar/nav-evenements.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/nav-evenements.min.js"></script>
 </body>
 
 </html>

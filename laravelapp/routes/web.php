@@ -62,7 +62,7 @@ Route::get('/boutique-merci', function () {
 });
 
 Route::get('/boutique-pay', function () {
-    return view('boutique/boutique-pay');
+    return view('vendor/getcandy/stripe/components/payment-form');
 });
 
 Route::get('/dashboard', function () {

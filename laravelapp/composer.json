@@ -6,10 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "getcandy/admin": "2.0-beta13.1",
+        "getcandy/stripe": "^1.0@alpha",
         "guzzlehttp/guzzle": "^7.2",
+        "http-interop/http-factory-guzzle": "^1.2",
         "laravel/framework": "^9.11",
         "laravel/sanctum": "^2.14.1",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "meilisearch/meilisearch-php": "^0.23.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
