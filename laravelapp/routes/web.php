@@ -69,4 +69,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('boutique/items-lists', 'ItemSearchController@index')->name('items-lists');
+
 require __DIR__.'/auth.php';

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>sitedemad</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.reflowhq.com/v1/toolkit.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="../assets/css/styles.min.css">
@@ -38,7 +38,17 @@
         <div class="navbar-spacer"></div>
     </div>
     <h1 class="text-center">Boutique Adémad</h1>
-    <div data-reflow-type="product-list" data-reflow-order="date_desc"></div>
+    <div class="row toplist">
+        <div class="col-4 flex-column toplist-elements-js">
+            <div class="row d-xl-flex flex-column toplist">
+                <div class="col-12 text-center toplist-title"><span class="title">Adhésion</span></div>
+                <div class="col-12 text-center"><img class="img-fluid" alt="test"></div>
+                <div class="col-12 text-center">
+                    <h5 class="text-end price">34€</h5><a class="btn btn-outline-primary btn-sm d-block w-100" role="button" href="https://www.amazon.de/gp/product/B07TZD3PFX/ref=as_li_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B07TZD3PFX&amp;linkCode=as2&amp;tag=richterdev-21&amp;linkId=4070f7f00d58114e772f512b2712cdc2" target="_blank">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="text-center bg-dark">
         <div class="container text-white py-4 py-lg-5"><a class="btn btn-primary" role="button" href="../contact">Contactez-nous</a>
             <p></p>
@@ -54,9 +64,38 @@
             <p class="text-muted mb-0">Copyright © 2022 Adémad</p>
         </div>
     </footer>
+    <script>
+    var results = Array();
+
+    window.onload = function () {
+        init();
+
+        <?php
+            use GetCandy\Models\Product;
+            use GetCandy\Facades\Pricing;
+
+            $search = "";
+
+
+            $products = Product::search($search)->get();
+            foreach ($products as $product) {
+                $productVariant = $product->variants()->first();
+                $price = Pricing::qty(1)->for($productVariant)->get();
+
+                $priceval = ($price->matched->price->value / 10 ** $price->matched->price->currency->decimal_places) * (1 + intval($price->matched->priceable->tax_ref) / 100);
+                $pricevalformatted = round($priceval, $price->matched->price->currency->decimal_places);
+                echo "addNewItem(new Item(\"" . $product->attribute_data["name"]->getValue()->get("fr")
+                    . "\"," . $pricevalformatted
+                    . ",\"desc\",\"http://localhost:8000/picture/\",\"http://localhost:8000/boutique-article?SKU="
+                    . "01"
+                    . "\"));";
+                }
+        ?>
+    }
+    </script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdn.reflowhq.com/v1/toolkit.min.js"></script>
     <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/boutique.min.js"></script>
     <script src="../assets/js/nav-boutique.min.js"></script>
 </body>
 

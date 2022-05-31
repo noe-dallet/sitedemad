@@ -7,6 +7,7 @@
     <title>sitedemad</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.reflowhq.com/v1/toolkit.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="../assets/css/styles.min.css">
@@ -85,6 +86,7 @@
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.reflowhq.com/v1/toolkit.min.js"></script>
     <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/bootsrtap-Payment-Form.min.js"></script>
     <script src="../assets/js/nav-boutique.min.js"></script>
 </body>
 
